@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:background="@color/material_dynamic_neutral50"
         android:text="@string/strBtn1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         app:iconTint="#8C8C8C"></Button>
 
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_green_dark"
         android:text="@string/strBtn2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"></Button>
 
     <Button
@@ -34,6 +36,7 @@
         android:layout_height="wrap_content"
         android:background="#CA0000"
         android:text="@string/strBtn3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"></Button>
 
     <Button
@@ -43,6 +46,15 @@
         android:layout_height="wrap_content"
         android:background="#E1CF2E"
         android:text="@string/strBtn4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"></Button>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="2019024025 박진석"
+        android:textColor="#000000"
+        android:textSize="24sp" />
 
 </LinearLayout>
